@@ -1,0 +1,27 @@
+.submitbtn{
+    width: 20%;
+    height: 0 auto;
+    margin-top: 15px;
+   margin-left: 110px;
+  }
+  .submitbtn:hover{
+    background-color:blue;
+  }
+  label{
+    color: red;
+    padding: 2px;
+  }
+ .rounded {
+    display: flex;
+    margin-left: 640px;
+  } 
+  /* .container{
+    display: flex;
+  }
+   */
+   .sign_img{
+    margin:60px 200px 0px 0px;
+   }
+   .sign_imgs{
+    margin: 50px 250px 0px 0px;
+   }

@@ -1,0 +1,132 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 40px 0;
+}
+.timeline-container::after {
+  background-color: #000080;
+  content: "";
+  position: absolute;
+  left: calc(50% - 2px);
+  width: 2px;
+  height: 100%;
+}
+.timeline-item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  position: relative;
+  margin: 10px 0;
+  width: 50%;
+}
+.timeline-item:nth-child(odd) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-left: 30px;
+  padding-right: 0;
+}
+.timelint-content {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px;
+  padding-left: 10px;
+  position: relative;
+  width: 388px;
+  height: 152px;
+  text-align: left;
+  margin-top: -25px;
+}
+.timelint-content::after {
+  content: " ";
+  background-color: #fff;
+  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: -7.5px;
+  top: calc(12% - 7.5px);
+  transform: rotate(45deg);
+  width: 15px;
+  height: 15px;
+}
+.timeline-item:nth-child(odd) .timelint-content {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.timeline-item:nth-child(odd) .timelint-content::after {
+  right: auto;
+  left: -7.5px;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.timelint-content .circlesss {
+  background-color: #fff;
+  border: 3px solid #000080;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 70px);
+  right: -40px;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+.timeline-item:nth-child(odd) .timelint-content .circlesss {
+  right: auto;
+  left: -40px;
+}
+.dedd {
+  display: flex;
+  height: 29px;
+  border-bottom: 1px solid black;
+}
+.dedd time {
+  margin-left: 160px;
+}
+.timelint-content h1,
+time {
+  font-size: 14px;
+  font-family: Calibri(Body);
+  color: #000080;
+}
+.timelint-content p {
+  font-size: 14px;
+  font-family: Calibri(Body);
+  color: #7e7e7e;
+}
+.textcontainer {
+  width: 370px;
+  height: 100px;
+  position: absolute;
+  margin-top: 5px;
+}
+.textcontainer textarea {
+  width: 370px;
+  height: 80px;
+  text-align: left;
+  align-items: top;
+}
+.textcontainer button {
+  margin-left: 160px;
+}
+.edi {
+  width: 345px;
+  height: 90px;
+  display: block;
+  border-bottom: 1px solid gray;
+}
+.edi p {
+  width: 345px;
+  height: 90px;
+  position: relative;
+}
+.edi img {
+  width: 26px;
+  height: 22px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 290px;
+  cursor: pointer;
+}

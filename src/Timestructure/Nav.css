@@ -1,0 +1,19 @@
+.nav {
+  width: 1200px;
+  height: 49px;
+  background-color: #000080;
+  margin-left: 5%;
+  display: inline-flex;
+}
+.nav p {
+  color: white;
+  padding: 13px;
+  font-size: 14px;
+  font-family: Calibri(Body);
+}
+.logout img {
+  width: 40px;
+  height: 35px;
+  margin-top: 7px;
+  margin-left: 950px;
+}

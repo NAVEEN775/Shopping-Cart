@@ -1,0 +1,44 @@
+.header{
+    position:sticky;
+    top:0;
+    min-height:80px;
+    width: 83%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: #141414;
+  }
+  .logo{
+    color: white;
+    padding-left: 40px;
+    text-transform:uppercase;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .header-list{
+    display:flex;
+  }
+  .header-list ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+  .header-list ul li a{
+    text-decoration: none;
+    text-transform:uppercase;
+    color: white;
+    padding:0px 10px;
+  }
+  .header-list ul li p{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top:18px;
+  }
+  .header-list ul li i{
+    font-size: 30px;
+  }
+ 
